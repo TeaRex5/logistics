@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Logistic</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <section class="promo">
+        <div class="container">
+            <header class="header">
+                <div class="header__logo">
+                    <img src="img/first_screen/logo_main.png" alt="logo">
+                </div>
+                <nav>
+                    <ul class="header__menu">
+                      <li class="header__menu-item">
+                        <a class="header__menu-link" href="#reasons" onclick="slowScroll('#reasons')">Преимущества</a>
+                    </li>
+                      <li class="header__menu-item">
+                        <a class="header__menu-link" href="#about" onclick="slowScroll('#about')">Наши работы</a>
+                    </li>
+                      <li class="header__menu-item">
+                        <a class="header__menu-link" href="#price" onclick="slowScroll('#price')">Цены</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#system" onclick="slowScroll('#system')">Схемы работы</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#carousel" onclick="slowScroll('#carousel')">Отзывы</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#map__info" onclick ="slowScroll('#map__info')">Контакты</a>
+                    </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                  </nav>
+                  <div class="header__contacts">
+                    <div class="header__call">Есть вопросы?</div>
+                    <a href="tel:+79264230100" class="header__phone" id="phone">+7(926) 423 01 00</a>
+                </div>
+                    <button class="button">Перезвоните мне</button>
+            </header>
+            <div class="promo__wrapper">
+                <h3 class="promo__text">
+                    Global Opt - логистика полного цикла из Китая в Россию</h3>
+                    <h1 class="promo__header">ДОСТАВКА ГРУЗОВ ИЗ КИТАЯ</h1>
+                    <h2 class="promo__subheader">В РОССИЮ И СНГ ВСЕМИ ВИДАМИ ТРАНСПОРТА</h2>
+                    <div class="divider_main">
+                         <div class="divider_main__line1"></div>
+                        <div class="divider_main__circle"></div>
+                        <div class="divider_main__line2"></div>
+                   </div> 
+
+                    <div class="promo__icons">
+                      <div class="promo__icon">
+                        <img src="icons/first_screen/ic1.png" alt="icons1">
+                       <div class="promo__descr1"> Перевозка негабаритных и крупно-тоннажных грузов</div>
+                      
+                    </div>
+                    <div class="promo__icon">
+                        <img src="icons/first_screen/ic2.png" alt="icons2">
+                        <div class="promo__descr2">Самостоятельно декларируем и проводим таможенную очистку с оптимизацией кодов и ставок</div>
+                    </div>
+                    <div class="promo__icon">
+                        <img src="icons/first_screen/ic3.png" alt="icons3">
+                        <div class="promo__descr">Осуществляем прямые поставки с заводов от двери до двери</div>
+                    </div>
+                    <div class="promo__icon">
+                        <img src="icons/first_screen/ic4.png" alt="icons4">
+                        <div class="promo__descr">Экспресс доставка 1-2 дня из Гуан-чжоу в Москву от 25$/кг</div>
+                    </div>
+                </div>
+                <button class="button button_main">Получить расчет</button>
+            </div>
+        </div>
+    </section>
+
+     <section class="reasons" id="reasons">
+        <div class="container">
+            <h2 class="title">Преимущества работы с GlobalOpt</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="reasons__items">
+                        <div class="reasons__item">
+                            <img src="icons/second/ic1_1.png" alt="reason">
+                        </div>
+                        <div class="reasons__descr">
+                            <div class="reasons__subtitle">Офисы в Китае и России</div>
+                            <div class="reasons__text">
+                                Офисы расположены в Москве, столице России. И в Гуанчжоу, мировом торговом мегаполисе Китая.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons__items">
+                        <div class="reasons__item">
+                            <img src="icons/second/ic2_2.png" alt="reason">
+                        </div>
+                        <div class="reasons__descr">
+                            <div class="reasons__subtitle"> Декларируем груз с оптимизацией</div>
+                            <div class="reasons__text">
+                               Идем на встречу своим клиентам и помогаем растаможить груз с оптимизацией кодов и ставок.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons__items">
+                        <div class="reasons__item">
+                            <img src="icons/second/ic3_3.png" alt="reason">
+                        </div>
+                        <div class="reasons__descr">
+                            <div class="reasons__subtitle">Квалифицированные кадры</div>
+                            <div class="reasons__text">
+                                Наши сотрудники имеют большой опыт в логистике с Китаем и в совершенстве владеют китайским и английским языками.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons__items">
+                        <div class="reasons__item">
+                            <img src="icons/second/ic4_4.png" alt="reason">
+                        </div>
+                        <div class="reasons__descr">
+                            <div class="reasons__subtitle">Осуществляем поиск производителей</div>
+                            <div class="reasons__text">
+                                Помогаем нашим клиентам найти интересующий вас товар или производителя в Китае.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons__items">
+                        <div class="reasons__item">
+                            <img src="icons/second/ic5_5.png" alt="reason">
+                        </div>
+                        <div class="reasons__descr">
+                            <div class="reasons__subtitle"> Собственный склад в Китае</div>
+                            <div class="reasons__text">
+                               Свой склад в Китае, позволяет собирать и проверять и упаковывать ваши товары, перед отправкой.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons__items">
+                        <div class="reasons__item">
+                            <img src="icons/second/ic6_6.png" alt="reason">
+                        </div>
+                        <div class="reasons__descr">
+                            <div class="reasons__subtitle6">Перевод денег в Китай</div>
+                            <div class="reasons__text6">
+                                Помогаем переводить и оплачивать товар в Китае на льготных условиях
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons__items">
+                        <div class="reasons__item">
+                            <img src="icons/second/ic7_7.png" alt="reason">
+                        </div>
+                        <div class="reasons__descr">
+                            <div class="reasons__subtitle"> Делаем оптовые поставки под ключ</div>
+                            <div class="reasons__text">
+                               Берём на себя все заботы связанные с закупкой, проверкой на качество, логистикой и растаможкой. От вас требуется лишь заполнить техническое задание, одобрить образцы товаров и после принять товар на своём складе!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="reasons__items">
+                        <div class="reasons__item">
+                            <img src="icons/second/ic8_8.png" alt="reason">
+                        </div>
+                        <div class="reasons__descr">
+                            <div class="reasons__subtitle">Поездка на производство в Китай</div>
+                            <div class="reasons__text">
+                                У нас большой опыт в бизнес поездках по Китаю. Мы с большой радостью и желанием организуем вам такую поездку в Китай под ключ. Сделаем визу, трансфер из аэропорта, забронируем отель, предоставим переводчика. Организуем поездку на производство. Шоп тур. Мебельный тур.
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about"> 
+        <div class="container">
+            <h2 class="title">Наша работа - больше чем просто доставка</h2>
+            <div class="divider"></div>
+            <h3 class="text">Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза<br>
+                и ваших требований по срокам и бюджету.</h3>
+                <div class="about__wrapper">
+                    <div class="about__item">
+                        <img src="img/third/hands.png" alt="hands" class="about__icon">
+                        <div class="about__title">Страховка груза
+                            </div>
+                        <div class="about__subtitle">
+                            Все грузы, логистику которых осуществляет Global Opt, застрахованы. Мы гарантируем полное возмещение стоимости груза в случаях, предусмотренных страховым соглашением. Все ваши тревоги наша компания берет на себя.</div>
+                    </div>
+                    <div class="about__item">
+                        <img src="img/third/ship.png" alt="ship" class="about__icon">
+                        <div class="about__title">Логистика последней мили</div>
+                        <div class="about__subtitle">
+                            Мы осуществляем доставку вашего груза до конкретного адреса. Привоз согласовывается менеджерами по телефону, предварительно за сутки и за час до доставки. Также мы предоставляем услуги грузчиков по месту доставки груза.</div>
+                    </div>
+                    <div class="about__item">
+                        <img src="img/third/man.png" alt="man" class="about__icon">
+                        <div class="about__title">Мы всегда смотрим вперед</div>
+                        <div class="about__subtitle">
+                            Философия нашей компании, делать себя и своих партнеров по всему миру, успешными и богатыми. Поэтому мы всегда открыты к диалогу о партнерстве и инвестициях.</div>
+                    </div>
+                </div>
+             </div>
+    </section>
+
+    <section class="advantage">
+        <div class="container">
+            <div class="advantage__wrapper">
+                <div class="advantage__circle">
+                    <img src="icons/man.png" alt="man">
+                </div>
+                <h4 class="advantage__title">Агент в Китае</h4>
+                <h5 class="advantage__descr">Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим запросам как по качеству, так и по цене.</h5>
+           </div>
+        </div>
+    </section>
+    
+    <section class="price" id="price">
+        <div class="container">
+            <h2 class="title">Цены на любой вариант доставки</h2>
+            <div class="divider"></div>
+            <h3 class="text">Перевозки грузов на дальние расстояния без каких-либо ограничений.
+                <br>Любой груз доставим вовремя.</h3>
+                    <div class="price__items">
+                        <div class="price__item">
+                            <div class="price__wrapper">
+                                <div class="price__subtitle">Доставка морем</div>
+                            </div>
+                          <div class="price__item-img">
+                                <img src="icons/ship1.png" alt="ship">
+                            </div>
+                            <h3 class="text_sm">Доставка 35-50 дней</h3>
+                            <h2 class="title_sm">от 0,3$ за 1 кг</h2>
+                            <h4 class="descr">Морские перевозки грузов из Китая <br>в Россию за 35 дней 
+                               <br> с прохождением таможни</h4>
+                                
+                            <button class="button">Подробнее</button>
+                        </div>
+                        <div class="price__item">
+                            <div class="price__wrapper">
+                                <div class="price__subtitle">Ж/Д доставка</div>
+                            </div>
+                            <div class="price__item-img">
+                                <img src="icons/train.png" alt="train">
+                            </div>
+                            <h3 class="text_sm">Доставка 15-28 дней
+                                </h3>
+                            <h2 class="title_sm">от 1$ за 1 кг</h2>
+                            <h4 class="descr">ЖД перевозки грузов из Китая <br>в Россию от 2 недель 
+                                <br>с прохождением таможни</h4>
+                            <button class="button">Подробнее</button>
+                        </div>
+                        <div class="price__item">
+                            <div class="price__wrapper">
+                                <div class="price__subtitle">Автодоставка</div>
+                            </div>
+                            <div class="price__item-img">
+                                <img src="icons/truck1.png" alt="truck">
+                            </div>
+                            <h3 class="text_sm">Доставка 12-20 дня
+                               </h3>
+                            <h2 class="title_sm"> от 1$ за 1 кг</h2>
+                            <h4 class="descr">Автоперевозки грузов из Китая <br>в Россию от 2 недель 
+                                <br>с прохождением таможни</h4>
+                            <button class="button">Подробнее</button>
+                        </div>
+                        <div class="price__item">
+                            <div class="price__wrapper">
+                                <div class="price__subtitle">Авиа доставка</div>
+                            </div>
+                            <div class="price__item-img">
+                                <img src="icons/plane1.png" alt="plane">
+                            </div>
+                            <h3 class="text_sm">Доставка 1-12 дней
+                                </h3>
+                            <h2 class="title_sm">от 6$ за 1 кг</h2>
+                            <h4 class="descr">Авиаперевозки грузов из Китая <br>в Россию до 2 недель 
+                               <br> с прохождением таможни</h4>
+                            <button class="button">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section class="consultation">
+        <div class="container">
+            <h3 class="consultation__title">Заказать бесплатную консультацию</h3>
+            <div class="consultation__wrapper">
+                <div class="consultation__icon">
+                    <img src="icons/consalt.png" class="consultation__logo" alt="manager">
+                </div>
+                    <form action="#" class="consultation__form" id="feed-form">
+                    <div class="consultation__input">
+                        <input name="name"  required placeholder="Ваше имя..." type="text">
+                        <input name="phone" required placeholder="Ваш телефон...">
+                        <input name="email" required placeholder="Ваш E-mail..." type="email">
+                            <button class="button">Отправить заявку</button>
+                        <div class="consultation__triggers">
+                            <!-- <div class="consultation__policy">
+                                <input required type="checkbox" class="contacts__checkbox">
+                            </div>
+                                <span>Я согласен(а) с <a href="../src/policy.html">политикой конфедииальности</a></span>
+                               </div> -->
+                        </div>
+                    </form>
+               </div>
+        </div>
+    </section>
+
+   
+
+    <section class="managers">
+        <div class="container">
+            <div class="managers__wrapper">
+                <div class="advantage__circle">
+                    <img src="icons/managers.png" alt="managers">
+                </div>
+                <h4 class="managers__title">Менеджеры компании</h4>
+                <h5 class="managers__descr">Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые поставки от завода-изготовителя.</h5>
+          </div>
+        </div>
+    </section>
+
+    <section class="system" id="system">
+        <div class="container">
+            <h2 class="title">Схема работы с нами</h2>
+            <div class="system__wrapper">
+                <div class="system__item">
+                    <img src="icons/order1.png" alt="oreder" class="system__icon">
+                <div class="system__title">Заявка</div>
+                <div class="system__descr">
+                    Вы оставляете заявку на нашем сайте или звоните нам</div>
+                </div>
+                <div class="system__item">
+                    <img src="icons/earth2.png" alt="earth" class="system__icon">
+                <div class="system__title">Аналитика доставки</div>
+                <div class="system__descr">
+                    Мы просчитываем варианты доставки Вашего груза</div>
+                </div>
+                <div class="system__item">
+                    <img src="icons/note3.png" alt="note" class="system__icon">
+                <div class="system__title">Договор</div>
+                <div class="system__descr">
+                    Заключаем с Вами договор о поставке груза из Китая</div>
+                </div>
+                <div class="system__item">
+                    <img src="icons/house4.png" alt="house" class="system__icon">
+                <div class="system__title">Доставка на наш склад</div>
+                <div class="system__descr">
+                    Связываемся с Вашим поставщиком в Китае и договариваемся о доставке груза на наш склад</div>
+                </div>
+                <div class="system__item">
+                    <img src="icons/check5.png" alt="check" class="system__icon">
+                <div class="system__title">Проверка груза</div>
+                <div class="system__descr">
+                    Мы проверяем, собираем и упаковываем перед отправкой Ваш груз на своём складе</div>
+                </div>
+                <div class="system__item">
+                    <img src="icons/logic6.png" alt="logic" class="system__icon">
+                <div class="system__title">Доставка груза</div>
+                <div class="system__descr">
+                    Мы перевозим ваш груз до места назначения и производим таможенную очистку</div>
+                </div>
+                <div class="system__item">
+                    <img src="icons/pocket7.png" alt="pocket" class="system__icon">
+                <div class="system__title">Оплата</div>
+                <div class="system__descr">
+                    Оплачиваете доставку груза при получении</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carousel" id="carousel">
+        <div class="container">
+            <h2 class="title">отзывы наших клиентов</h2>
+            <div class="divider"></div>
+            <h3 class="subtitle">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</h3>
+                    <div class="carousel__inner">
+                        <div class="carousel__wrapper">
+                            <img src="img/woman1.png"  alt="slide1">
+                            <div class="carousel__text">
+                                <div class="carousel__subtitle">Анисимова Ольга</div>
+                                <div class="carousel__descr">
+                                    Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользаваться услугами даной компании</div>
+                            </div>
+                        </div>
+                        <div class="carousel__wrapper">
+                            <img src="img/man1.png"  alt="slide1">
+                            <div class="carousel__text">
+                                <div class="carousel__subtitle">Дмитрий Иванов</div>
+                                <div class="carousel__descr">
+                                    Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользаваться услугами даной компании</div>
+                            </div>
+                        </div>
+                        <div class="carousel__wrapper">
+                            <img src="img/man2.png"  alt="slide1">
+                            <div class="carousel__text">
+                                <div class="carousel__subtitle">Сергей Валиев</div>
+                                <div class="carousel__descr">
+                                    Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользаваться услугами даной компании
+                                        </div>
+                                 </div>
+                            </div>
+                      </div>
+                 </div>
+        </section>
+
+   
+
+    <section class="questions" id="questions">
+        <div class="container">
+            <div class="questions__wrapper">
+               <div class="questions__text">
+                <div class="questions__title">Остались вопросы?</div>
+                <div class="questions__subtitle">Напишите нам!</div>
+            </div>
+            <form action="#" class="questions__form" id="feed-form">
+                <div class="questions__input">
+                <input name="name" required placeholder="Ваше имя..." type="text">
+                <input name="phone" required placeholder="Ваш телефон...">
+                <input name="email" required placeholder="Ваш E-mail..." type="email">
+                </div>
+                <div class="questions__textarea">
+                    <textarea name="text" required placeholder="      Сообщение..." type="text"></textarea>
+                 </div>
+                    <button class="button">Отправить заявку</button>
+                </div>
+            </form>
+            <!-- <div class="questions__triggers">
+                    <div class="questions__policy">
+                      <input required type="checkbox">
+                    </div>
+                         <span>Я согласен(а) с <a href="../src/policy.html">политикой конфедииальности</a></span> -->
+                
+             </div>  
+        </div>
+      </div>
+    </section>
+
+    <section class="map">
+        <div class="map__responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8303.069357138625!2d37.61259423679036!3d55.74719941791627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af8f4b2bb81%3A0x4ddbd95d7439813b!2z0KHQsNC00L7QstC90LjRh9C10YHQutCw0Y8g0YPQuy4sIDUsINC-0YTQuNGBIDQtNiwg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDExNTAzNQ!5e0!3m2!1sru!2str!4v1673606274433!5m2!1sru!2str" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+        <div class="map__info" id="map__info">
+            <address class="map__addr">
+                <div class="map__title">г. Москва</div>
+                <div class="map__subtitle">ул. Садовническая, дом 5, офис 4-6
+                    <br>700 от м. Новокузнецкая <br>Tел: + 7 (926) 423 01 011
+                    <a class="map__link" href="#"><br>info@glopt.ru</a>
+                </div> 
+                </address>
+                 </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__items">
+                <div class="footer__item1">
+                <div class="footer__logo">
+                    <img src="icons/footer.png" alt="logo">
+                 </div>
+                 <div class="footer__title">Global Opt - Доставка грузов из Китая в Россию и СНГ</div> 
+            </div>
+            <div class="footer__item2">
+                <div class="footer__call">Есть вопросы?</div>
+                <a href="tel:+792642301011" class="footer__phone">+ 7 (926) 423 01 011</a>
+            </div>
+              <button class="footer__btn">Перезвонить мне</button>
+            </div>
+              <div class="divider"></div>
+            <div class="footer__policy">
+                <a href="../src/policy.html" class="footer__color">Политика конфедииальности</a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <a href="#" class="scrollup">
+        <img src="icons/up.svg" alt="up">
+    </a>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+</body>
+</html>
